@@ -269,7 +269,7 @@
         <!-- PAGE 1: COVER -->
         <div class="page p1" id="p1">
             <div class="spine"></div>
-            <span class="badge">HAPPY ANNIVERSARY 🎉🥳</span>
+            <span class="badge">HAPPY 9 MONTHS ANNIVERSARY 🎉🥳</span>
             
             <div class="photo-frame">
                 <img src="https://i.ibb.co/ZzsZrk08/photo.jpg" alt="Teena & Navu" onerror="this.src='https://i.ibb.co/ZzsZrk08/image.jpg'">
@@ -366,17 +366,17 @@
                     I Love You Teena Ji! 😘
                 </h1>
                 <p style="font-weight: 700; font-size: 0.95rem; color:#2d3436; margin-top: 3px;">
-                    Happy Anniversary! 🥳✨
+                    Happy 9 MONTHS  Anniversary! 🥳✨
                 </p>
             </div>
             
             <div class="court-tag">
-                ⚖️ MY SUPREME COURT ⚖️
+                💜 MY GUCHUU PUCHUUU ❤️
             </div>
             
             <p style="font-weight: 700; color: #636e72; font-size: 0.9rem;">
                 Hamesha ke liye aapka,<br>
-                <span class="handwriting" style="font-size: 1.95rem; color: #2d3436;">Navuddin (Navu) 🧸❤️</span>
+                <span class="handwriting" style="font-size: 1.95rem; color: #2d3436;">NAVU APKA ONLY 🧸❤️</span>
             </p>
 
             <button class="btn-cartoon" onclick="resetBook()" style="padding: 6px 18px; font-size: 0.82rem;">Reopen Book 🔄</button>
