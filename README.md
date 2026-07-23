@@ -269,7 +269,7 @@
         <!-- PAGE 1: COVER -->
         <div class="page p1" id="p1">
             <div class="spine"></div>
-            <span class="badge">HAPPY 9 MONTHS ANNIVERSARY 🎉🥳</span>
+            <span class="badge">HAPPY 9 MONTHS ANNIVERSARY .🎉🥳</span>
             
             <div class="photo-frame">
                 <img src="https://i.ibb.co/ZzsZrk08/photo.jpg" alt="Teena & Navu" onerror="this.src='https://i.ibb.co/ZzsZrk08/image.jpg'">
