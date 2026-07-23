@@ -1,11 +1,10 @@
-# HAPPY-9-MONTHS-ANNIVERSARY.-
-<!DOCTYPE html> happy 9 months anniversary banyy ❤️💋🌹
+<!DOCTYPE html>
 <html lang="hi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy 9 months Anniversary Teena Jiii ❤️ - By Navu</title>
-    <!-- Premium Google Fonts -->
+    <title>Happy 9 Months Anniversary Teena Jiii ❤️ - By Navu</title>
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Mali:wght@600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     
     <style>
@@ -30,10 +29,10 @@
             position: relative;
         }
 
-        /* Floating background hearts */
+        /* Floating background elements */
         .bg-heart {
             position: absolute;
-            color: rgba(255, 255, 255, 0.45);
+            color: rgba(255, 255, 255, 0.5);
             font-size: 1.8rem;
             animation: floatBg 6s infinite linear;
             pointer-events: none;
@@ -55,13 +54,13 @@
             z-index: 9999;
         }
 
-        /* 3D BOOK WRAPPER WITH GLOW */
+        /* 3D BOOK WRAPPER */
         .book-wrapper {
             position: relative;
-            width: 360px;
-            height: 560px;
+            width: 340px;
+            height: 540px;
             perspective: 1800px;
-            filter: drop-shadow(0 20px 30px rgba(0,0,0,0.15));
+            filter: drop-shadow(0 15px 25px rgba(0,0,0,0.15));
         }
 
         .page {
@@ -71,8 +70,8 @@
             top: 0;
             left: 0;
             border: 3px solid rgba(255, 255, 255, 0.85);
-            border-radius: 28px;
-            padding: 20px 18px;
+            border-radius: 24px;
+            padding: 20px 15px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -90,7 +89,7 @@
             transform: rotateY(-180deg);
         }
 
-        /* Gradient Color Schemes */
+        /* Color Schemes */
         .p1 { z-index: 6; background: linear-gradient(135deg, #ff758c 0%, #ff7eb3 100%); color: #fff; }
         .p2 { z-index: 5; background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%); color: #2d3436; }
         .p3 { z-index: 4; background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%); color: #2d3436; }
@@ -98,9 +97,203 @@
         .p5 { z-index: 2; background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%); color: #2d3436; }
         .p6 { z-index: 1; background: linear-gradient(135deg, #fff1eb 0%, #ace0f9 100%); color: #2d3436; }
 
-        .spine {
-            position: absolute;
-            left: 0;
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.2rem;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            font-family: 'Mali', cursive;
+            font-size: 1.4rem;
+        }
+
+        p {
+            font-size: 0.95rem;
+            line-height: 1.4;
+            font-weight: 600;
+        }
+
+        .gif-container {
+            width: 100%;
+            height: 220px;
+            border-radius: 18px;
+            overflow: hidden;
+            border: 2px solid #fff;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+            background: #fff;
+        }
+
+        .gif-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .btn {
+            background: #fff;
+            color: #ff4757;
+            border: none;
+            padding: 10px 22px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: all 0.2s ease;
+        }
+
+        .btn:active {
+            transform: scale(0.95);
+        }
+
+        .badge {
+            background: rgba(255, 255, 255, 0.3);
+            padding: 5px 15px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <canvas id="confettiCanvas"></canvas>
+
+    <!-- Floating Background Elements -->
+    <div class="bg-heart" style="left: 10%; animation-delay: 0s;">❤️</div>
+    <div class="bg-heart" style="left: 30%; animation-delay: 2s;">💖</div>
+    <div class="bg-heart" style="left: 70%; animation-delay: 1s;">✨</div>
+    <div class="bg-heart" style="left: 85%; animation-delay: 3s;">🌹</div>
+
+    <div class="book-wrapper">
+
+        <!-- Page 1 (Cover) -->
+        <div class="page p1" id="page1">
+            <span class="badge">Special Surprise 🎁</span>
+            <h1>Happy 9 Months Anniversary!</h1>
+            <div class="gif-container">
+                <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3EzeW9pMG55eThsd3B2ZjU0Mmlmd3pzeDFrc2I0ZjdwpDE3eHFmdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LpDmM2w9a45vW/giphy.gif" alt="Cute Love GIF">
+            </div>
+            <h2>To My Dearest Teena Jiii ❤️</h2>
+            <p>9 Months of Pure Magic & Happiness ✨</p>
+            <button class="btn" onclick="nextPage(1)">Open Book 📖</button>
+        </div>
+
+        <!-- Page 2 -->
+        <div class="page p2" id="page2">
+            <h2>9 Months Together 🥰</h2>
+            <div class="gif-container">
+                <img src="https://media.giphy.com/media/c76IJLZUJhCdq/giphy.gif" alt="Cute Hug">
+            </div>
+            <p>Time flies when I am with you! 270 days of pure happiness with my favorite person. 💖</p>
+            <button class="btn" onclick="nextPage(2)">Next 💕</button>
+        </div>
+
+        <!-- Page 3 -->
+        <div class="page p3" id="page3">
+            <h2>You Are My Sunshine ☀️</h2>
+            <div class="gif-container">
+                <img src="https://media.giphy.com/media/108M7gCS1JSoO4/giphy.gif" alt="Cute Bear Hug">
+            </div>
+            <p>Thank you for always making me smile and filling my life with so much love & sweetness! 🌸</p>
+            <button class="btn" onclick="nextPage(3)">Next 🌹</button>
+        </div>
+
+        <!-- Page 4 -->
+        <div class="page p4" id="page4">
+            <h2>9 Months Down... 💖</h2>
+            <div class="gif-container">
+                <img src="https://media.giphy.com/media/l4pTdcifPZLpDjL1e/giphy.gif" alt="Love Cats">
+            </div>
+            <p>...And forever to go! Every moment spent with you is a memory I treasure forever. ✨</p>
+            <button class="btn" onclick="nextPage(4)">Next 💋</button>
+        </div>
+
+        <!-- Page 5 -->
+        <div class="page p5" id="page5">
+            <h2>My Favorite Person 👑</h2>
+            <div class="gif-container">
+                <img src="https://media.giphy.com/media/Gf3AUz3eBNbTW/giphy.gif" alt="Cute Kiss">
+            </div>
+            <p>No matter what happens, you will always be my number one priority! I Love You Banyy ❤️</p>
+            <button class="btn" onclick="nextPage(5)">Final Surprise 🎉</button>
+        </div>
+
+        <!-- Page 6 (End) -->
+        <div class="page p6" id="page6">
+            <h1>I Love You So Much! ❤️</h1>
+            <div class="gif-container">
+                <img src="https://media.giphy.com/media/3o7TKoWXm3okO1mgHC/giphy.gif" alt="Celebrate Love">
+            </div>
+            <p>Happy 9 Months Anniversary Teena Jiii! 🎉<br>Forever Yours,<br><b>~ Navu 💖</b></p>
+            <button class="btn" onclick="restartBook()">Restart 🔄</button>
+        </div>
+
+    </div>
+
+    <script>
+        function nextPage(pageNum) {
+            const page = document.getElementById(`page${pageNum}`);
+            if (page) {
+                page.classList.add('flipped');
+            }
+            if (pageNum === 5) {
+                triggerConfetti();
+            }
+        }
+
+        function restartBook() {
+            for (let i = 1; i <= 6; i++) {
+                const page = document.getElementById(`page${i}`);
+                if (page) {
+                    page.classList.remove('flipped');
+                }
+            }
+        }
+
+        // Simple Confetti Animation
+        function triggerConfetti() {
+            const canvas = document.getElementById('confettiCanvas');
+            const ctx = canvas.getContext('2d');
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+
+            const particles = [];
+            const colors = ['#ff758c', '#ff7eb3', '#a1c4fd', '#fbc2eb', '#ffd166'];
+
+            for (let i = 0; i < 80; i++) {
+                particles.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height - canvas.height,
+                    size: Math.random() * 8 + 4,
+                    color: colors[Math.floor(Math.random() * colors.length)],
+                    speedY: Math.random() * 3 + 2,
+                    speedX: Math.random() * 2 - 1
+                });
+            }
+
+            function animate() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                particles.forEach((p) => {
+                    ctx.fillStyle = p.color;
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                    ctx.fill();
+
+                    p.y += p.speedY;
+                    p.x += p.speedX;
+
+                    if (p.y > canvas.height) p.y = -10;
+                });
+                requestAnimationFrame(animate);
+            }
+            animate();
+        }
+    </script>
+</body>
+</html>
+left: 0;
             top: 0;
             bottom: 0;
             width: 12px;
